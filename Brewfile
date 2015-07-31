@@ -74,6 +74,7 @@ brew tree
 brew tuntap
 brew w3m
 brew wget
+brew zsh
 
 # App Store applications
 appstore Air Display
