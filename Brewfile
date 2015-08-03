@@ -68,6 +68,7 @@ brew rbenv
 brew readline
 brew redis
 brew ruby-build
+brew the_silver_searcher
 brew tig
 brew tmux
 brew tree
