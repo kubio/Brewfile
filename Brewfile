@@ -77,35 +77,9 @@ brew w3m
 brew wget
 brew zsh
 
-# App Store applications
-appstore Air Display
-appstore Alfred
-appstore Coda_appStore
-appstore Evernote
-appstore iMovie
-appstore iPhoto
-appstore iZip
-appstore Keynote
-appstore LINE
-appstore Mactracker
-appstore Microsoft OneNote
-appstore Navicat for MySQL Lite
-appstore Pages
-appstore Pocket
-appstore RC Mini Racers
-appstore SiteSucker
-appstore SketchBookExpress
-appstore Slack
-appstore SleipnirSE
-appstore SpriteBuilder
-appstore StuffIt Expander
-appstore TextWrangler
-appstore The Unarchiver
-appstore todo
-appstore TweetDeck
-appstore Twitter
-appstore VisualDiff
-appstore VisualDiffer
-appstore WinArchiver Lite
-appstore Xcode
-appstore YoruFukurou
+# Homebrew Cask
+cask 'vagrant'
+cask 'virtualbox'
+cask 'chefdk'
+
+
