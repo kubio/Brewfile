@@ -1,165 +1,141 @@
-
-# tap repositories and their packages
-
-tap caskroom/cask
-
-tap homebrew/dupes
-
-tap homebrew/versions
-
-tap homebrew/versions
-
-tap homebrew/versions
-
-tap josegonzalez/php
-
-tap neovim/neovim
-
-tap peco/peco
-
-tap rcmdnk/file
-
-tap sanemat/font
-
-tap simeji/jid
-
-# Other Homebrew packages
-brew ansible
-brew apple-gcc42
-brew autoconf
-brew automake
-brew bdw-gc
-brew brew-cask
-brew brew-file
-brew cairo
-brew cloog018
-brew cmake
-brew composer
-brew ctags
-brew curl --with-ssh
-brew czmq
-brew docker
-brew elixir
-brew erlang
-brew figlet
-brew fish
-brew fontconfig
-brew fontforge
-brew freetype
-brew fswatch
-brew gcc
-brew gcc49
-brew gd
-brew gettext
-brew gibo
-brew git
-brew git-ftp
-brew git-lfs
-brew glib
-brew glide
-brew gmp
-brew gmp4
-brew gnu-sed
-brew go
-brew gobject-introspection
-brew graphviz
-brew hadoop
-brew harfbuzz
-brew heroku-toolbelt
-brew httpie
-brew icu4c
-brew imagemagick
-brew isl
-brew isl011
-brew jemalloc
-brew jenkins
-brew jid
-brew jpeg
-brew jpegoptim
-brew jq
-brew lesspipe
-brew libevent
-brew libffi
-brew libgpg-error
-brew libiconv
-brew libksba
-brew libmpc
-brew libmpc08
-brew libpng
-brew libsodium
-brew libssh2
-brew libtermkey
-brew libtiff
-brew libtool
-brew libuv
-brew libvterm
-brew libxml2
-brew libxslt
-brew libyaml
-brew lua
-brew lzo
-brew mcrypt
-brew mercurial
-brew mpfr
-brew mpfr2
-brew msgpack
-brew mysql
-brew neovim
-brew node
-brew nodebrew
-brew oniguruma
-brew openssl
-brew openvpn
-brew ossp-uuid
-brew pandoc
-brew pango
-brew pcre
-brew pcre2
-brew peco
-brew perl
-brew phan
-brew phantomjs
-brew php70
-brew php70-ast
-brew phpctags
-brew phpenv --HEAD
-brew pidof
-brew pixman
-brew pkg-config
-brew pngquant
-brew postgresql
-brew pyenv
-brew python
-brew python3
-brew qcachegrind
-brew qt
-brew qt5
-brew rbenv
-brew readline
-brew redis
-brew ruby
-brew ruby-build
-brew selenium-server-standalone
-brew sqlite3
-brew the_silver_searcher
-brew tig
-brew tmux
-brew tree
-brew tuntap
-brew unibilium
-brew unison
-brew unixodbc
-brew vim --with-lua
-brew w3m
-brew webp
-brew wget
-brew wp-cli
-brew zeromq
-brew zsh
-
-# Homebrew Cask
-cask dockertoolbox
-cask macdown
-cask terraform
-cask vagrant
-cask virtualbox
+tap "caskroom/cask"
+tap "homebrew/boneyard"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/dupes"
+tap "homebrew/services"
+tap "homebrew/versions"
+tap "josegonzalez/php"
+tap "neovim/neovim"
+tap "peco/peco"
+tap "rcmdnk/file"
+tap "sanemat/font"
+tap "simeji/jid"
+cask "java"
+cask "xquartz"
+brew "ansible"
+brew "apple-gcc42"
+brew "autoconf"
+brew "automake"
+brew "bdw-gc"
+brew "libpng"
+brew "freetype"
+brew "gettext"
+brew "libffi"
+brew "pcre"
+brew "glib"
+brew "pixman"
+brew "cairo"
+brew "gmp@4"
+brew "cloog"
+brew "cmake"
+brew "ctags"
+brew "curl", args: ["with-libssh2"]
+brew "zeromq"
+brew "czmq"
+brew "git"
+brew "docker"
+brew "docker-compose"
+brew "openssl"
+brew "jpeg"
+brew "wxmac"
+brew "erlang"
+brew "elixir"
+brew "figlet"
+brew "pcre2"
+brew "fish"
+brew "libtool"
+brew "pkg-config"
+brew "gobject-introspection"
+brew "icu4c"
+brew "harfbuzz"
+brew "pango"
+brew "fontforge"
+brew "fswatch"
+brew "gmp"
+brew "isl"
+brew "mpfr"
+brew "libmpc"
+brew "gcc"
+brew "mpfr@2"
+brew "libmpc@0.8"
+brew "gcc@4.9"
+brew "gdbm"
+brew "gibo"
+brew "git-ftp"
+brew "git-lfs"
+brew "go"
+brew "glide"
+brew "gnu-sed"
+brew "graphviz"
+brew "hadoop"
+brew "readline"
+brew "sqlite"
+brew "python3"
+brew "httpie"
+brew "imagemagick"
+brew "isl@0.11"
+brew "jemalloc"
+brew "jenkins"
+brew "jid"
+brew "jpegoptim"
+brew "oniguruma"
+brew "jq"
+brew "lesspipe"
+brew "libevent"
+brew "libiconv"
+brew "libsodium"
+brew "libssh2"
+brew "libtermkey"
+brew "libuv"
+brew "libvterm"
+brew "libxml2"
+brew "lua"
+brew "mas"
+brew "msgpack"
+brew "mysql"
+brew "nodebrew"
+brew "pandoc"
+brew "peco"
+brew "phantomjs"
+brew "pngquant"
+brew "postgresql"
+brew "pyenv"
+brew "qcachegrind"
+brew "qt"
+brew "ruby-build"
+brew "rbenv"
+brew "reattach-to-user-namespace"
+brew "selenium-server-standalone"
+brew "terraform"
+brew "the_silver_searcher"
+brew "tmux"
+brew "unibilium"
+brew "unison"
+brew "unixodbc"
+brew "vim", args: ["with-lua"]
+brew "wget"
+brew "josegonzalez/php/composer"
+brew "josegonzalez/php/phan"
+brew "josegonzalez/php/php70"
+brew "josegonzalez/php/php70-ast"
+brew "josegonzalez/php/phpctags"
+brew "josegonzalez/php/wp-cli"
+brew "neovim/neovim/neovim"
+brew "rcmdnk/file/brew-file"
+cask "dockertoolbox"
+cask "macdown"
+cask "mou"
+cask "terraform"
+cask "tuntap"
+cask "vagrant"
+cask "virtualbox"
+mas "Alfred", id: 405843582
+mas "ForkLift", id: 412448059
+mas "GarageBand", id: 408980954
+mas "iMovie", id: 408981434
+mas "Install macOS Sierra", id: 1127487414
+mas "iPhoto", id: 408981381
+mas "Kobito", id: 896624060
+mas "Slack", id: 803453959
+mas "Xcode", id: 497799835
